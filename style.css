@@ -9,7 +9,7 @@ body{
     font-size: 20px;
     color: rgba(99, 98, 98, 0.295);
 }
-
+/*styling of shopping list form-container */
 .form-container{
     width: 85%;
     height: 100vh;
@@ -100,7 +100,6 @@ margin-top: 35px;
     padding: 10px;
     display: block;
     justify-items: center;
-    border: 2px solid red;
     
 }
 .add-tocart1 {
