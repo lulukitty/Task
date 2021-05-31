@@ -11,7 +11,7 @@ body{
 }
 
 .form-container{
-    width: 65%;
+    width: 85%;
     height: 100vh;
     background-color: white;
     margin: 0 auto;
@@ -27,7 +27,7 @@ h1 {
 }
 .shopping-cart-container {
 width: 100%;
-max-width: 450px;
+max-width: 350px;
 height: 230px;
     border: 2px solid rgba(148, 148, 144, 0.253);
     border-radius: 10px;
@@ -80,7 +80,7 @@ input {
 .checkout-container {
 width: 100%;
 height: 100vh;
-max-width: 520px;
+max-width: 400px;
 height: 200px;
 margin-top: 35px;
     border: 2px solid rgba(148, 148, 144, 0.253);
@@ -96,12 +96,11 @@ margin-top: 35px;
 
 .item1-summary-container {
 
-    margin:10px 5px;
+    margin:30px 5px;
     padding: 10px;
-    display: flex;
-    flex-direction: row;
-    align-items:center;
+    display: block;
     justify-items: center;
+    border: 2px solid red;
     
 }
 .add-tocart1 {
@@ -113,7 +112,7 @@ margin-top: 35px;
     background-color: rgb(30, 206, 138);
 }
 
-.item2-summary-container {
+/*.item2-summary-container {
     margin:10px 5px;
     padding: 10px;
      display: flex;
